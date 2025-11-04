@@ -49,7 +49,7 @@
   --card-foreground: #1f1f1f;
   --popover: #ffffff;
   --popover-foreground: #1f1f1f;
-  --primary: #4b3db8; /* roxo principal da marca */
+  --primary: #221968; /* roxo principal da marca */
   --primary-foreground: #ffffff;
   --secondary: #efeefe; /* lavanda muito clara para áreas neutras */
   --secondary-foreground: #2b2b2b;
@@ -62,15 +62,15 @@
   --input: #e6e7eb;
   --ring: #5a4ae0; /* aro/focus roxo premium */
   /* Cores de gráficos (coerentes com a paleta) */
-  --chart-1: #4b3db8;
-  --chart-2: #6d60ff;
+  --chart-1: #221968;
+  --chart-2: #3a2f8a;
   --chart-3: #222222;
   --chart-4: #9a92ff;
   --chart-5: #c7c3ff;
   /* Sidebar */
   --sidebar: #f8f8ff;
   --sidebar-foreground: #1f1f1f;
-  --sidebar-primary: #4b3db8;
+  --sidebar-primary: #221968;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #eceaff;
   --sidebar-accent-foreground: #1f1f1f;
@@ -85,7 +85,7 @@
   --card-foreground: #f5f6f7;
   --popover: #15151b;
   --popover-foreground: #f5f6f7;
-  --primary: #6d60ff;
+  --primary: #3a2f8a;
   --primary-foreground: #ffffff;
   --secondary: #1b1b22;
   --secondary-foreground: #e9e9ff;
@@ -97,14 +97,14 @@
   --border: #2b2b35;
   --input: #2b2b35;
   --ring: #8a7fff;
-  --chart-1: #6d60ff;
-  --chart-2: #4b3db8;
+  --chart-1: #3a2f8a;
+  --chart-2: #221968;
   --chart-3: #c7c3ff;
   --chart-4: #9a92ff;
   --chart-5: #3b3b45;
   --sidebar: #15151b;
   --sidebar-foreground: #f5f6f7;
-  --sidebar-primary: #6d60ff;
+  --sidebar-primary: #3a2f8a;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #232331;
   --sidebar-accent-foreground: #f5f6f7;

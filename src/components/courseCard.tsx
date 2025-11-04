@@ -41,7 +41,7 @@ export default function CourseCard({
       </div>
       <div className="flex flex-col flex-grow">
         <h2
-          className="text-2xl font-bold text-[#4b3db8] mb-2 transition-colors group-hover:text-[#6d60ff]"
+          className="text-2xl font-bold text-[#221968] mb-2 transition-colors group-hover:text-[#3a2f8a]"
         >
           {title}
         </h2>
@@ -57,7 +57,7 @@ export default function CourseCard({
         <Link
           href={`/cursos/${slugify(title)}`}
           // ESTILO VISUAL ALTERADO: Aplicado o estilo do botão do card de referência
-          className="mt-auto block w-full text-center bg-gradient-to-br from-[#6d60ff] to-[#4b3db8] text-white py-3 rounded-lg font-semibold transition-all duration-300 hover:from-[#7a70ff] hover:to-[#4b3db8] group-hover:scale-105 shadow-[0_10px_30px_-12px_#4b3db8]"
+          className="mt-auto block w-full text-center bg-gradient-to-br from-[#3a2f8a] to-[#221968] text-white py-3 rounded-lg font-semibold transition-all duration-300 hover:from-[#2f277a] hover:to-[#221968] group-hover:scale-105 shadow-[0_10px_30px_-12px_#221968]"
         >
           Saiba Mais {/* Texto do botão alterado */}
         </Link>

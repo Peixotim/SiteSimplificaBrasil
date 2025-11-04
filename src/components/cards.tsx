@@ -55,8 +55,8 @@ export default function CardPage({
       {/* Conteúdo */}
       <div className="flex flex-col flex-grow">
         <h2
-          className="text-2xl font-bold text-[#4b3db8] mb-2 
-          transition-colors duration-300 group-hover:text-[#6d60ff]"
+          className="text-2xl font-bold text-[#221968] mb-2 
+          transition-colors duration-300 group-hover:text-[#3a2f8a]"
         >
           {title}
         </h2>
@@ -105,8 +105,8 @@ export default function CardPage({
           <Link
             href={`/cursos/${courseSlug}`}
             className="block w-full text-center py-3 rounded-lg font-semibold 
-            bg-gradient-to-br from-[#6d60ff] to-[#4b3db8] text-white transition-all duration-500 
-            hover:from-[#7a70ff] hover:to-[#4b3db8] shadow-[0_10px_30px_-12px_#4b3db8]
+            bg-gradient-to-br from-[#3a2f8a] to-[#221968] text-white transition-all duration-500 
+            hover:from-[#2f277a] hover:to-[#221968] shadow-[0_10px_30px_-12px_#221968]
             hover:animate-bounceOnce group-hover:scale-[1.03]"
           >
             Saiba Mais

@@ -27,7 +27,7 @@ export default function CursosSlugPage() {
 
             className="group relative mb-8 inline-flex items-center gap-2 overflow-hidden rounded-full bg-[#4b3acc] px-5 py-2 text-sm font-bold text-white shadow-md transition-all duration-300"
           >
-            <div className="absolute inset-0 w-0 bg-[#302681] transition-all duration-300 ease-out group-hover:w-full"></div>
+            <div className="absolute inset-0 w-0 bg-[#221968] transition-all duration-300 ease-out group-hover:w-full"></div>
             <span className="relative flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -41,7 +41,7 @@ export default function RootLayout({
         <SchemaOrg />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
-        <meta name="theme-color" content="#4b3db8" />
+        <meta name="theme-color" content="#221968" />
         <meta
           name="google-site-verification"
           content="CNScKtYMuazZjXrh3r8i8LHVtEcb70eC5-re9VMWySY"

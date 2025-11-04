@@ -94,9 +94,9 @@ export default function SubscriptionForm({
   return (
     <div className="p-8 bg-slate-50/50">
       <div className="text-center mb-8">
-        <h3 className="text-3xl font-extrabold text-[#4b3db8]">
+        <h3 className="text-3xl font-extrabold text-[#221968]">
           Inscreva-se em <br />
-          <span className="bg-gradient-to-r from-[#6d60ff] to-[#4b3db8] bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-[#3a2f8a] to-[#221968] bg-clip-text text-transparent">
             {selectedContent}
           </span>
         </h3>
@@ -179,7 +179,7 @@ export default function SubscriptionForm({
             disabled={!lgpdAccepted}
             className={`group w-full flex items-center justify-center gap-2 rounded-xl px-4 py-3 text-lg font-bold text-white transition-all duration-300 ${
               lgpdAccepted
-                ? "bg-primary shadow-lg shadow-[#4b3db8]/30 hover:shadow-xl hover:shadow-[#4b3db8]/50 hover:-translate-y-1"
+                ? "bg-primary shadow-lg shadow-[#221968]/30 hover:shadow-xl hover:shadow-[#221968]/50 hover:-translate-y-1"
                 : "bg-zinc-400 cursor-not-allowed"
             }`}
           >

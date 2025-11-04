@@ -15,7 +15,7 @@ export default function SearchSection({
 }: SearchSectionProps) {
   return (
     <div className="w-full max-w-5xl mx-auto px-4 py-12 sm:py-16 text-center">
-      <h2 className="text-4xl md:text-5xl font-bold text-[#4b3db8] tracking-tight">
+      <h2 className="text-4xl md:text-5xl font-bold text-[#221968] tracking-tight">
         Encontre seu Curso Ideal
       </h2>
       <p className="max-w-2xl mx-auto mt-4 text-lg text-slate-600">
@@ -69,7 +69,7 @@ export default function SearchSection({
           className={`flex items-center gap-2.5 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 shadow-sm ${
             activeFilter === "lancamentos"
               ? "bg-secondary text-secondary-foreground scale-105 border-transparent shadow-md"
-              : "bg-white border border-secondary text-[#4b3db8] hover:bg-[#f3f2ff]"
+              : "bg-white border border-secondary text-[#221968] hover:bg-[#f3f2ff]"
           }`}
         >
           <Star size={18} />

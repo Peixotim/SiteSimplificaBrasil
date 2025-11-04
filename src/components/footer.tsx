@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-b from-[#1e184f] via-[#2f277a] to-[#3d31a8] text-white">
+    <footer className="bg-gradient-to-b from-[#221968] via-[#2f277a] to-[#3a2f8a] text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-4">       

@@ -82,7 +82,7 @@ export const HeroSection = () => {
       <section
         id="inicio"
         // CORREÇÃO 1: Removido o colchete extra em 'via-[#302681]]'
-        className="w-full bg-gradient-to-br from-[#302681] via-[#302681] to-[#302681] text-white py-20 px-4 sm:px-6 lg:px-8"
+        className="w-full bg-gradient-to-br from-[#221968] via-[#221968] to-[#221968] text-white py-20 px-4 sm:px-6 lg:px-8"
       >
         <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="flex flex-col gap-6">
@@ -130,7 +130,7 @@ export const HeroSection = () => {
                 size="lg"
                 variant="outline"
                 // CORREÇÃO 3: Ajustado o hover:text para a cor principal do logo
-                className="bg-transparent border-white text-white hover:bg-white hover:text-[#302681]"
+                className="bg-transparent border-white text-white hover:bg-white hover:text-[#221968]"
                 onClick={openModal}
               >
                 Fale com um consultor

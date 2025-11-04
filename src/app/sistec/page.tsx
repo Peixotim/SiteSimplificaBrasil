@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function PageSistecMec() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-[#302681] via-[#4636A3] to-[#1E174F] text-white">
+    <main className="min-h-screen bg-gradient-to-b from-[#221968] via-[#2f277a] to-[#1a1445] text-white">
       {/* HERO */}
       <section className="relative isolate overflow-hidden py-16 sm:py-20">
         <div className="pointer-events-none absolute inset-0 opacity-10 [background:radial-gradient(60%_60%_at_50%_40%,#ffffff_0%,transparent_60%)]" />
@@ -49,7 +49,7 @@ export default function PageSistecMec() {
                 <Link
                   href="https://sistec.mec.gov.br/consultapublicaunidadeensino"
                   target="_blank"
-                  className="inline-flex items-center justify-center rounded-2xl bg-[#D4AF37] px-5 py-3 font-semibold text-[#1E174F] shadow-lg shadow-black/20 transition hover:scale-[1.03]"
+                  className="inline-flex items-center justify-center rounded-2xl bg-[#D4AF37] px-5 py-3 font-semibold text-[#221968] shadow-lg shadow-black/20 transition hover:scale-[1.03]"
                 >
                   Verificar no SISTEC
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -129,7 +129,7 @@ export default function PageSistecMec() {
                   <Link
                     href="https://sistec.mec.gov.br/consultapublicaunidadeensino"
                     target="_blank"
-                    className="font-semibold text-[#302681] hover:underline"
+                    className="font-semibold text-[#221968] hover:underline"
                   >
                     Verificar agora
                   </Link>
@@ -174,7 +174,7 @@ export default function PageSistecMec() {
               <Link
                 href="https://sistec.mec.gov.br/consultapublicaunidadeensino"
                 target="_blank"
-                className="inline-flex items-center justify-center rounded-2xl bg-[#D4AF37] px-5 py-3 font-semibold text-[#1E174F] shadow-md transition hover:scale-[1.02]"
+                className="inline-flex items-center justify-center rounded-2xl bg-[#D4AF37] px-5 py-3 font-semibold text-[#221968] shadow-md transition hover:scale-[1.02]"
               >
                 Verificar no SISTEC
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -217,7 +217,7 @@ const FAQ = [
 
 function Stat({ label, value }: { label: string; value: React.ReactNode }) {
   return (
-    <div className="rounded-2xl bg-[#302681] p-4 text-center ring-1 ring-white/10">
+    <div className="rounded-2xl bg-[#221968] p-4 text-center ring-1 ring-white/10">
       <div className="text-2xl font-extrabold text-[#D4AF37]">{value}</div>
       <div className="mt-1 text-[11px] uppercase tracking-wide text-white/70">
         {label}
@@ -240,7 +240,7 @@ function SealSistec(props: React.SVGProps<SVGSVGElement>) {
         cx="60"
         cy="60"
         r="49"
-        fill="#302681"
+        fill="#221968"
         stroke="#D4AF37"
         strokeWidth="3"
       />

@@ -88,14 +88,14 @@ export default function CourseInformations({
   return (
     <div className="relative bg-[#F9FBF9] font-sans overflow-hidden">
       <div
-        className="absolute top-0 left-0 w-full h-1/2 bg-gradient-radial from-[#4b3db8]/10 via-[#6d60ff]/10 to-transparent pointer-events-none"
+        className="absolute top-0 left-0 w-full h-1/2 bg-gradient-radial from-[#221968]/10 via-[#3a2f8a]/10 to-transparent pointer-events-none"
         aria-hidden="true"
       />
 
       <div className="relative max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 z-10">
         <Link
           href={categorySlug ? `/cursos/${categorySlug}` : "/"}
-          className="group mb-8 inline-flex items-center gap-2 text-[#4b3db8] font-semibold hover:text-[#6d60ff] transition-colors"
+          className="group mb-8 inline-flex items-center gap-2 text-[#221968] font-semibold hover:text-[#3a2f8a] transition-colors"
         >
           <ArrowLeft className="w-5 h-5 transition-transform group-hover:-translate-x-1" />
           Voltar para {cardData?.subTitle || "Cursos"}
@@ -104,10 +104,10 @@ export default function CourseInformations({
         {/* Cabeçalho */}
         <header className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-start">
           <div className="flex flex-col gap-4 pt-4">
-            <span className="font-bold text-[#4b3db8] uppercase tracking-wider">
+            <span className="font-bold text-[#221968] uppercase tracking-wider">
               {cardData?.subTitle}
             </span>
-            <h1 className="text-4xl sm:text-5xl font-black text-[#4b3db8] tracking-tighter">
+            <h1 className="text-4xl sm:text-5xl font-black text-[#221968] tracking-tighter">
               {course.title}
             </h1>
             <p className="text-lg text-[#475569] leading-relaxed">
@@ -132,14 +132,14 @@ export default function CourseInformations({
           {/* O que vai aprender */}
           {course.whatYouWillLearn && course.whatYouWillLearn.length > 0 && (
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-[#E2E8F0]">
-              <h2 className="text-2xl font-bold text-[#4b3db8] mb-6 flex items-center gap-3">
-                <Award className="text-[#6d60ff]" /> O que você vai aprender
+              <h2 className="text-2xl font-bold text-[#221968] mb-6 flex items-center gap-3">
+                <Award className="text-[#3a2f8a]" /> O que você vai aprender
               </h2>
               <ul className="space-y-4">
                 {course.whatYouWillLearn.map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <CheckCircle
-                      className="text-[#6d60ff] mt-1 flex-shrink-0"
+                      className="text-[#3a2f8a] mt-1 flex-shrink-0"
                       size={20}
                     />
                     <span className="text-[#475569]">{item}</span>
@@ -164,7 +164,7 @@ export default function CourseInformations({
           )}
 
           <div className="md:col-span-2 flex flex-col items-center text-center">
-            <h3 className="text-2xl font-bold text-[#4b3db8]">
+            <h3 className="text-2xl font-bold text-[#221968]">
               Pronto para dar o próximo passo?
             </h3>
             <p className="text-[#475569] mt-2">
@@ -192,7 +192,7 @@ export default function CourseInformations({
               key={index}
               className="bg-white rounded-xl p-8 shadow-lg border border-[#E2E8F0]"
             >
-              <h2 className="text-2xl font-bold text-[#302681] mb-4 flex items-center gap-3">
+              <h2 className="text-2xl font-bold text-[#221968] mb-4 flex items-center gap-3">
                 {section.title.includes("Objetivo") ? (
                   <Target className="text-[#F2A413]" />
                 ) : (
@@ -209,7 +209,7 @@ export default function CourseInformations({
 
           {/* Depoimentos */}
           {course.depoiments && (
-            <div className="bg-gradient-to-r from-[#2f277a] via-[#4b3db8] to-[#6d60ff] rounded-xl p-8 sm:p-12 shadow-xl text-center text-white">
+            <div className="bg-gradient-to-r from-[#221968] via-[#2f277a] to-[#3a2f8a] rounded-xl p-8 sm:p-12 shadow-xl text-center text-white">
               <blockquote className="max-w-3xl mx-auto">
                 <p className="text-2xl sm:text-3xl font-light italic text-[#e6e4ff]">
                   “{course.depoiments.texto}”

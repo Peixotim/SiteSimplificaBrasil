@@ -45,7 +45,7 @@ export default function CookieConsent() {
           </button>
           <button
             onClick={acceptCookies}
-            className="px-4 py-2 text-sm rounded-lg bg-gradient-to-br from-[#6d60ff] to-[#4b3db8] text-white shadow-[0_10px_30px_-12px_#4b3db8] hover:from-[#7a70ff] hover:to-[#4b3db8]"
+            className="px-4 py-2 text-sm rounded-lg bg-gradient-to-br from-[#3a2f8a] to-[#221968] text-white shadow-[0_10px_30px_-12px_#221968] hover:from-[#2f277a] hover:to-[#221968]"
           >
             Aceitar
           </button>

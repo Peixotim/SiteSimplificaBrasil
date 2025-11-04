@@ -46,8 +46,8 @@ function Logo({ expanded = false }) {
           >
             <div
               className="w-9 h-9 grid place-items-center rounded-xl
-                       bg-gradient-to-br from-[#6d60ff] to-[#4b3db8]
-                       text-white font-extrabold text-lg shadow-[0_8px_25px_-8px_#4b3db8]"
+                     bg-gradient-to-br from-[#3a2f8a] to-[#221968]
+                     text-white font-extrabold text-lg shadow-[0_8px_25px_-8px_#221968]"
             >
               S
             </div>
@@ -68,8 +68,8 @@ function Logo({ expanded = false }) {
             exit={{ opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.2 }}
             className="w-10 h-10 grid place-items-center rounded-xl
-                       bg-gradient-to-br from-[#6d60ff] to-[#4b3db8]
-                       text-white font-extrabold text-xl shadow-[0_10px_30px_-10px_#4b3db8]"
+                     bg-gradient-to-br from-[#3a2f8a] to-[#221968]
+                     text-white font-extrabold text-xl shadow-[0_10px_30px_-10px_#221968]"
           >
             S
           </motion.div>
@@ -105,7 +105,7 @@ export default function Sidebar() {
         onMouseLeave={() => setExpanded(false)}
         className={`hidden lg:flex sticky top-0 left-0 h-screen
           ${expanded ? "w-64" : "w-20"} 
-          bg-gradient-to-b from-[#2f277a] via-[#4b3db8] to-[#6d60ff]
+          bg-gradient-to-b from-[#221968] via-[#2f277a] to-[#3a2f8a]
           backdrop-blur-xl shadow-xl border-r border-[#ffffff22] 
           text-white transition-all duration-300`}
       >
@@ -158,7 +158,7 @@ export default function Sidebar() {
             animate={{ x: 0 }}
             exit={{ x: -260 }}
             transition={{ type: "spring", stiffness: 80, damping: 16 }}
-            className="fixed top-0 left-0 z-50 w-64 h-full bg-gradient-to-b from-[#2f277a] via-[#4b3db8] to-[#6d60ff]
+            className="fixed top-0 left-0 z-50 w-64 h-full bg-gradient-to-b from-[#221968] via-[#2f277a] to-[#3a2f8a]
                        shadow-xl p-6 flex flex-col justify-between rounded-r-3xl text-white"
           >
             {/* LOGO MOBILE */}

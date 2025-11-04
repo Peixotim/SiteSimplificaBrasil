@@ -18,7 +18,7 @@ export default function NotFound() {
   }, []);
 
   return (
-    <main className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-[#2f277a] via-[#4b3db8] to-black text-white overflow-hidden px-6">
+    <main className="relative flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-[#221968] via-[#2f277a] to-[#1a1445] text-white overflow-hidden px-6">
 
       <motion.div
         className="absolute inset-0 -z-10"
@@ -32,7 +32,7 @@ export default function NotFound() {
       />
 
       <motion.div
-        className="absolute w-[700px] h-[700px] bg-gradient-to-tr from-[#6d60ff]/20 to-transparent rounded-full blur-3xl -z-10"
+        className="absolute w-[700px] h-[700px] bg-gradient-to-tr from-[#3a2f8a]/20 to-transparent rounded-full blur-3xl -z-10"
         animate={{ rotate: [0, 360] }}
         transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
       />
@@ -42,7 +42,7 @@ export default function NotFound() {
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: [0.8, 1.05, 1], opacity: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="text-[120px] sm:text-[160px] font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#6d60ff] via-[#4b3db8] to-white drop-shadow-[0_0_25px_rgba(77,63,184,0.5)]"
+        className="text-[120px] sm:text-[160px] font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#3a2f8a] via-[#221968] to-white drop-shadow-[0_0_25px_rgba(34,25,104,0.5)]"
       >
         404
       </motion.h1>
@@ -93,7 +93,7 @@ export default function NotFound() {
         {particles.map((p, i) => (
           <motion.div
             key={i}
-            className="absolute w-1 h-1 bg-[#6d60ff] rounded-full opacity-50"
+            className="absolute w-1 h-1 bg-[#3a2f8a] rounded-full opacity-50"
             initial={{ x: p.x, y: p.y }}
             animate={{
               y: [p.y, -20],

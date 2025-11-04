@@ -50,7 +50,7 @@ export default function Contact() {
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -3 }}
               whileTap={{ scale: 0.97 }}
-              className="flex flex-col items-center justify-center gap-2 p-6 rounded-2xl border border-gray-200 bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-[#302681] transition-all duration-300 cursor-pointer"
+              className="flex flex-col items-center justify-center gap-2 p-6 rounded-2xl border border-gray-200 bg-white/70 backdrop-blur-sm shadow-sm hover:shadow-[#221968] transition-all duration-300 cursor-pointer"
             >
               <div className="p-3 rounded-full bg-gray-100">{item.icon}</div>
               <p className="text-sm font-semibold text-gray-700">

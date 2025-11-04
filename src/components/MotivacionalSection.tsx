@@ -25,7 +25,7 @@ export default function MotivacionalSection() {
 
   return (
     <>
-      <section className="relative bg-gradient-to-r from-[#2f277a] via-[#4b3db8] to-[#1c1c1c] text-white py-20 px-6 md:px-12 overflow-hidden rounded-2xl shadow-lg max-w-7xl mx-auto my-16">
+      <section className="relative bg-gradient-to-r from-[#221968] via-[#2f277a] to-[#1a1445] text-white py-20 px-6 md:px-12 overflow-hidden rounded-2xl shadow-lg max-w-7xl mx-auto my-16">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           {/* Texto Motivacional */}
           <motion.div
@@ -56,7 +56,7 @@ export default function MotivacionalSection() {
               <Button
                 variant="outline"
                 onClick={() => setIsModalOpen(true)}
-                className="border-white text-black hover:bg-white hover:text-[#4b3db8] px-6 py-3 rounded-xl"
+                className="border-white text-black hover:bg-white hover:text-[#221968] px-6 py-3 rounded-xl"
               >
                 Fale com um Consultor
               </Button>
