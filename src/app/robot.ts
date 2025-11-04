@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin", "/dashboard", "/api/private"],
       },
     ],
-    sitemap: "https://colegioavancatec.com.br/sitemap.xml",
-    host: "https://colegioavancatec.com.br",
+    sitemap: "https://colegiosimplificabrasil.com.br/sitemap.xml",
+    host: "https://colegiosimplificabrasil.com.br",
   };
 }

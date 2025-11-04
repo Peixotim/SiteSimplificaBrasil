@@ -6,17 +6,11 @@ const Footer = () => {
     <footer className="bg-gradient-to-b from-[#1e184f] via-[#2f277a] to-[#3d31a8] text-white">
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-
           <div className="space-y-4">       
             <div className="flex items-center space-x-3">
-              <Image
-                src="/av.png"
-                alt="Simplifica Brasil Logo"
-                width={220}
-                height={64}
-                className="drop-shadow-[0_3px_6px_rgba(0,0,0,0.3)]"
-                priority
-              />
+               <h3 className="text-2xl font-extrabold tracking-wide bg-gradient-to-r from-[#ffffff] via-[#b2b0ff] to-[#7d79ff] bg-clip-text text-transparent drop-shadow-sm">
+                Simplifica Brasil
+              </h3>
             </div>
             <span className="text-[#e6e4ff] text-medium">
               Educação Técnica de Excelência
