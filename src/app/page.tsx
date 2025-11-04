@@ -1,0 +1,70 @@
+"use client";
+import CertificationSteps from "@/components/CertificationSteps";
+import Footer from "@/components/footer";
+import { HeroSection } from "@/components/Banner";
+import Storaged from "@/utils/storaged";
+import { useState } from "react";
+import SearchSection from "@/components/search";
+import CardPage from "@/components/cards";
+import Contact from "@/components/contact";
+import MotivacionalSection from "@/components/MotivacionalSection";
+export default function Home() {
+  const cardProps = Storaged();
+
+  const [searchTerm, setSearchTerm] = useState("");
+  const [activeFilter, setActiveFilter] = useState("todos");
+
+  const filteredCards = cardProps.filter((card) => {
+    const searchTermLower = searchTerm.toLowerCase();
+
+    const matchesSearch =
+      (card.title || "").toLowerCase().includes(searchTermLower) ||
+      (card.description || "").toLowerCase().includes(searchTermLower);
+
+    let matchesFilter = true;
+
+    if (activeFilter === "mais_clicados") {
+      matchesFilter = card.maisClicado === true;
+    } else if (activeFilter === "lancamentos") {
+      matchesFilter = card.lancamentos === true;
+    }
+    return matchesSearch && matchesFilter;
+  });
+
+  return (
+    <>
+      <main className="mt-0">
+        <HeroSection />
+        <MotivacionalSection />
+        <SearchSection
+          searchTerm={searchTerm}
+          onSearchChange={(e) => setSearchTerm(e.target.value)}
+          activeFilter={activeFilter}
+          onFilterChange={setActiveFilter}
+        />
+        <hr className="max-w-5xl mx-auto border-slate-200" />
+
+        <section id="cursos" className="py-12 lg:py-16">
+          <div className="max-w-7xl mx-auto px-4" id="cursos">
+            <h2 className="text-3xl font-bold text-gray-600 mb-8 text-center">
+              Cursos em Destaque
+            </h2>
+            <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
+              {filteredCards.map((card, i) => (
+                <CardPage key={i} {...card} />
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <div id="Certificado">
+          <CertificationSteps />
+        </div>
+        <div id="contato">
+          <Contact />
+        </div>
+      </main>
+      <Footer />
+    </>
+  );
+}
