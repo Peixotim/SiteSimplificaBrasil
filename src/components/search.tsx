@@ -57,7 +57,7 @@ export default function SearchSection({
           className={`flex items-center gap-2.5 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 shadow-sm ${
             activeFilter === "mais_clicados"
               ? "bg-primary text-primary-foreground scale-105 border-transparent shadow-md"
-              : "bg-white border border-primary text-primary hover:bg-violet-50"
+              : "bg-white border border-slate-300 text-primary hover:bg-violet-50"
           }`}
         >
           <Flame size={18} />
@@ -68,8 +68,8 @@ export default function SearchSection({
           onClick={() => onFilterChange("lancamentos")}
           className={`flex items-center gap-2.5 px-5 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 shadow-sm ${
             activeFilter === "lancamentos"
-              ? "bg-secondary text-secondary-foreground scale-105 border-transparent shadow-md"
-              : "bg-white border border-secondary text-[#221968] hover:bg-[#f3f2ff]"
+              ? "bg-gradient-to-r from-[#FFD700] to-[#F2960E] text-secondary-foreground scale-105 border-transparent shadow-md"
+              : "bg-white border border-slate-300 text-[#221968] hover:bg-yellow-500"
           }`}
         >
           <Star size={18} />
